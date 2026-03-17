@@ -1,7 +1,0 @@
-com/example/payment/PaymentServiceApplication.class
-com/example/payment/repository/PaymentRepository.class
-com/example/payment/entity/Payment.class
-com/example/payment/consumer/PaymentConsumer.class
-com/example/payment/producer/PaymentKafkaProducer.class
-com/example/payment/config/KafkaConfig.class
-com/example/payment/entity/Payment$PaymentBuilder.class

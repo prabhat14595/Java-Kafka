@@ -1,0 +1,138 @@
+# ============================================================
+#  .gitignore — Kafka Order Processing (Spring Boot / Maven)
+# ============================================================
+
+# --------------------------
+# Maven
+# --------------------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# --------------------------
+# Java
+# --------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# --------------------------
+# Spring Boot
+# --------------------------
+HELP.md
+spring-shell.log
+/logs/
+*.log
+*.log.*
+
+# --------------------------
+# H2 Database
+# --------------------------
+*.db
+*.mv.db
+*.trace.db
+
+# --------------------------
+# Docker
+# --------------------------
+.docker/
+docker-compose.override.yml
+
+# --------------------------
+# Kafka local data
+# --------------------------
+kafka-data/
+zookeeper-data/
+zookeeper-logs/
+kafka-logs/
+
+# --------------------------
+# IDEs — IntelliJ IDEA
+# --------------------------
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --------------------------
+# IDEs — Eclipse / STS
+# --------------------------
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+# --------------------------
+# IDEs — VS Code
+# --------------------------
+.vscode/
+!.vscode/extensions.json
+
+# --------------------------
+# IDEs — NetBeans
+# --------------------------
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# --------------------------
+# OS files
+# --------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Environment & secrets
+# --------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+application-local.yml
+application-local.properties
+application-secrets.yml
+application-secrets.properties
+**/src/main/resources/application-prod.yml
+**/src/main/resources/application-prod.properties
+
+# --------------------------
+# Test output
+# --------------------------
+/test-output/
+surefire-reports/
+failsafe-reports/
+
+# --------------------------
+# Lombok
+# --------------------------
+lombok.config
