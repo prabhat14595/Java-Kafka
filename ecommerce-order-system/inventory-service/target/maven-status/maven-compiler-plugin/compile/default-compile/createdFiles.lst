@@ -1,0 +1,5 @@
+com/example/inventory/InventoryServiceApplication.class
+com/example/inventory/exception/InventoryException.class
+com/example/inventory/consumer/DltConsumer.class
+com/example/inventory/consumer/InventoryConsumer.class
+com/example/inventory/config/KafkaConsumerConfig.class
